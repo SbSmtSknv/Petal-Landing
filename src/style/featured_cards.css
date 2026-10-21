@@ -1,0 +1,109 @@
+.featured-left-card {
+    margin-left: 20px;
+}
+
+.featured-cards_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-card-content {
+    align-items: center;
+    width: 554px;
+    height: 670px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.featured-header {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0 65px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.featured-header > h3 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #1e1d1d;
+}
+
+.Petal_h2 {
+    font-size: 33px;
+    font-weight: 400;
+    color: #1e1d1d;
+}
+
+.featured-left-card-header {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.featured-left-card-header > p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #1e1d1d;
+}
+
+
+.featured-block-items {
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+    border-top: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.featured-last-block {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.featured-block-item-left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.block-item {
+    width: 48px;
+    height: 48px;
+}
+
+.featured-color-block-item {
+    background-color: #6EEB9D;
+}
+
+.featured-item-left > p {
+    font-size: 18px;
+    font-weight: 400;
+    color:#1e1d1d;
+}
+
+.featured-block-item-right > p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1e1d1d;
+}
+
+.featured-card-btn > button {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1e1d1d;
+    background-color: #fff;
+    cursor: pointer;
+    width: 474px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 23px auto;
+}
+
+.featured-content {
+    display: flex;
+    gap: 32px;
+}

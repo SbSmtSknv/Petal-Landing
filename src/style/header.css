@@ -1,0 +1,45 @@
+header {
+    padding: 1%;
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.header_cards_wrapper {
+    display: flex;
+    padding: 16px;
+    padding-left: 5%;
+}
+
+.header_cards {
+    display:flex;
+    align-items: center;
+    gap:20%;
+}
+
+.header_login_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_card_btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+}
+
+.apply_now_btn {
+    width: 160px;
+    height: 48px;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #000;
+    font-weight: 400;
+}
