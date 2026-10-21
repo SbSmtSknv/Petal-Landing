@@ -1,0 +1,53 @@
+.card-approval {
+    height: 740px;
+    background-color: #f7f7f7;
+}
+
+.CA-content {
+    margin-top: 40px;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CA-content > h1 {
+    font-size: 33px;
+    font-weight: 400;
+    color:#1e1d1d;
+}
+
+.CA-content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.CA-component-wrapper {
+    display: flex;
+    gap:32px;
+}
+
+.CA-component {
+    width: 360px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+
+}
+
+.CA-component > h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1e1d1d;
+}
+
+.CA-component > p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(30, 29, 29, 0.78);
+    text-align: center;
+}

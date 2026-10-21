@@ -1,6 +1,7 @@
 @import "./style/header.css";
 @import "./style/header_introduction.css";
 @import "./style/featured_cards.css";
+@import "./style/card-approval.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 html {
