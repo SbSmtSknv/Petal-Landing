@@ -6,6 +6,7 @@
 @import "./style/score-section.css";
 @import "./style/payment-features.css";
 @import "./style/card-features.css";
+@import "./style/testimonials.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 html {
