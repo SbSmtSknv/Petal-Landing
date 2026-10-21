@@ -2,6 +2,7 @@
 @import "./style/header_introduction.css";
 @import "./style/featured_cards.css";
 @import "./style/card-approval.css";
+@import "./style/ugly-green-block.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 html {
@@ -27,4 +28,10 @@ a {
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: 400;
+    color: #1e1d1d;
 }

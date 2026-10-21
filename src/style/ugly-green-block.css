@@ -1,0 +1,38 @@
+.ugly-green-block {
+    background-color: #fff;
+}
+
+.green-block-wrapper {
+    display: flex;
+    flex-direction: column;   
+    gap: 65px;
+    padding: 30px;
+}
+
+.text-header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(30, 29, 29, 0.72);
+}
+
+.ugly-green-block-wrapper {
+    background-color: #6EEB9D;
+    padding: 183px 40px;
+}
+
+.ugly-green-block-main {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: 333px;
+}
+
+.ugly-green-block-main > h4 {
+    line-height: 23.3px;
+}
