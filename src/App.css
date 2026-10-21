@@ -3,6 +3,7 @@
 @import "./style/featured_cards.css";
 @import "./style/card-approval.css";
 @import "./style/ugly-green-block.css";
+@import "./style/score-section.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 html {
@@ -19,6 +20,10 @@ body {
     padding: 0;
     max-width: 1200px;
     font-family: "Roboto", sans-serif;
+}
+
+section {
+    box-sizing: border-box;
 }
 
 a {

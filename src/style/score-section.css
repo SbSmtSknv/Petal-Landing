@@ -1,0 +1,91 @@
+.score-section {
+    width: calc(100% - 48px);
+    height: 522px;
+    margin: 24px auto 96px;
+    display: grid;
+    grid-template-columns: 436fr 654fr;
+    gap: 30px;
+    background-color: transparent;
+}
+
+.score-section__intro,
+.score-section__companies {
+    min-width: 0;
+    height: 100%;
+}
+
+.score-section__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 24px 49px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.score-section__intro h2,
+.score-section__companies h2 {
+    margin: 0;
+    color: #1e1d1d;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.score-section__intro p,
+.score-section__companies p {
+    margin: 27px 0 0;
+    color: #5c5a5a;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.score-section__companies {
+    position: relative;
+    overflow: hidden;
+    background: #f7f7f7 url("/src/assets/companies.png") center / cover no-repeat;
+}
+
+.score-section__companies-content {
+    position: absolute;
+    top: 218px;
+    left: 48px;
+    right: 24px;
+}
+
+.score-section__companies-content p {
+    margin-top: 27px;
+}
+
+@media (max-width: 760px) {
+    .score-section {
+        width: calc(100% - 32px);
+        height: auto;
+        margin: 16px auto 64px;
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .score-section__intro {
+        min-height: 300px;
+        padding-bottom: 48px;
+    }
+
+    .score-section__companies {
+        min-height: 420px;
+        background-size: auto 100%;
+    }
+
+    .score-section__companies-content {
+        top: 52%;
+        left: 28px;
+        right: 20px;
+    }
+
+    .score-section__intro h2,
+    .score-section__companies h2 {
+        font-size: 28px;
+    }
+}
